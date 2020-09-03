@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>elements with A</title>
+    </head>
+        <body>
+            <h1>Showing elements with A</h1>
+            <script>
+                var oldArray=["rutvy","rahil","bruno","apple","aneri"];
+                var newArray = [];
+                var i, z = 0;
+                var char;
+
+                for(i=0;i<=oldArray.length-1;i++){     //name[i] = rutvy
+
+                char = oldArray[i];     //rutvy
+
+                    if(char.includes("a") == true){
+                        newArray[z] = char;
+                        z++;
+                    }
+                }
+                
+                console.log(oldArray);
+                console.log(newArray); 
+            </script>
+        </body>
+</html>
